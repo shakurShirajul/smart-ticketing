@@ -1684,12 +1684,12 @@ html {
   display: none;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-40 {
   height: 10rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .w-2 {
@@ -1708,12 +1708,12 @@ html {
   width: 13rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-96 {
   width: 24rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -1786,12 +1786,12 @@ html {
   border-radius: var(--rounded-box, 1rem);
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-tl-\[88px\] {
@@ -1842,6 +1842,11 @@ html {
   background-color: rgb(247 248 248 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FFBF0F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 191 15 / var(--tw-bg-opacity));
+}
+
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
@@ -1855,11 +1860,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FFBF0F\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 191 15 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -1877,6 +1877,11 @@ html {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-7 {
@@ -1902,11 +1907,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .py-7 {
@@ -1952,9 +1952,19 @@ html {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -1975,16 +1985,6 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -2012,6 +2012,11 @@ html {
   color: rgb(29 209 0 / var(--tw-text-opacity));
 }
 
+.text-\[\#816310\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 99 16 / var(--tw-text-opacity));
+}
+
 .text-\[rgb\(29\2c 209\2c 0\)\] {
   --tw-text-opacity: 1;
   color: rgb(29 209 0 / var(--tw-text-opacity));
@@ -2030,11 +2035,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#816310\] {
-  --tw-text-opacity: 1;
-  color: rgb(129 99 16 / var(--tw-text-opacity));
 }
 
 .underline {
