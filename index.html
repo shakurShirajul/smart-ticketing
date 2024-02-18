@@ -15,12 +15,15 @@
         .font-raleway {
             font-family: "Raleway", sans-serif;
         }
-        .font-inter{
+
+        .font-inter {
             font-family: "Inter", sans-serif;
         }
-        .selected{
+
+        .selected {
             background-color: #1DD100;
             color: white;
+            border: 1px solid#1DD100;
         }
     </style>
 </head>
@@ -117,61 +120,61 @@
                         <img src="images/steering-wheel.png" alt="">
                     </button>
                 </div>
-                <div class="grid grid-cols-2 gap-16 font-inter">
+                <div class="grid grid-cols-2 gap-16 font-inter" id="seat-catalogue">
                     <div class="grid grid-cols-3 gap-6">
                         <!-- <button class="btn col-span-3 hidden">a</button> -->
-                        <button class="bg-white border-none">A</button>
-                        <button class="btn">A1</button>
-                        <button class="btn">A2</button>
-                        <button class="bg-white border-none">B</button>
-                        <button class="btn">B1</button>
-                        <button class="btn">B2</button>
-                        <button class="bg-white border-none">C</button>
-                        <button class="btn">C1</button>
-                        <button class="btn">C2</button>
-                        <button class="bg-white border-none">D</button>
-                        <button class="btn">D1</button>
-                        <button class="btn">D2</button>
-                        <button class="bg-white border-none">E</button>
-                        <button class="btn">E1</button>
-                        <button class="btn">E2</button>
-                        <button class="bg-white border-none">F</button>
-                        <button class="btn">F1</button>
-                        <button class="btn">F2</button>
-                        <button class="bg-white border-none">G</button>
-                        <button class="btn">G1</button>
-                        <button class="btn">G2</button>
-                        <button class="bg-white border-none">H</button>
-                        <button class="btn">H1</button>
-                        <button class="btn">H2</button>
-                        <button class="bg-white border-none">I</button>
-                        <button class="btn">I1</button>
-                        <button class="btn">I2</button>
-                        <button class="bg-white border-none">J</button>
-                        <button class="btn">J1</button>
-                        <button class="btn">J2</button>
+                        <a class="flex justify-center items-center">A</a>
+                        <button class="seat-button">A1</button>
+                        <button class="seat-button">A2</button>
+                        <a class="flex justify-center items-center">B</a>
+                        <button class="seat-button">B1</button>
+                        <button class="seat-button">B2</button>
+                        <a class="flex justify-center items-center">C</a>
+                        <button class="seat-button">C1</button>
+                        <button class="seat-button">C2</button>
+                        <a class="flex justify-center items-center">D</a>
+                        <button class="seat-button">D1</button>
+                        <button class="seat-button">D2</button>
+                        <a class="flex justify-center items-center">E</a>
+                        <button class="seat-button">E1</button>
+                        <button class="seat-button">E2</button>
+                        <a class="flex justify-center items-center">F</a>
+                        <button class="seat-button">F1</button>
+                        <button class="seat-button">F2</button>
+                        <a class="flex justify-center items-center">G</a>
+                        <button class="seat-button">G1</button>
+                        <button class="seat-button">G2</button>
+                        <a class="flex justify-center items-center">H</a>
+                        <button class="seat-button">H1</button>
+                        <button class="seat-button">H2</button>
+                        <a class="flex justify-center items-center">I</a>
+                        <button class="seat-button">I1</button>
+                        <button class="seat-button">I2</button>
+                        <a class="flex justify-center items-center">J</a>
+                        <button class="seat-button">J1</button>
+                        <button class="seat-button">J2</button>
                     </div>
                     <div class="grid grid-cols-2 gap-6">
-                        <button class="btn">A3</button>
-                        <button class="btn">A4</button>
-                        <button class="btn">B3</button>
-                        <button class="btn">B4</button>
-                        <button class="btn">C3</button>
-                        <button class="btn">C4</button>
-                        <button class="btn">D3</button>
-                        <button class="btn">D4</button>
-                        <button class="btn">E3</button>
-                        <button class="btn">E4</button>
-                        <button class="btn">F3</button>
-                        <button class="btn">F4</button>
-                        <button class="btn">G3</button>
-                        <button class="btn">G4</button>
-                        <button class="btn">H3</button>
-                        <button class="btn">H4</button>
-                        <button class="btn">I3</button>
-                        <button class="btn">I4</button>
-                        <button class="btn">J3</button>
-                        <button class="btn">J4</button>
+                        <button class="seat-button">A3</button>
+                        <button class="seat-button">A4</button>
+                        <button class="seat-button">B3</button>
+                        <button class="seat-button">B4</button>
+                        <button class="seat-button">C3</button>
+                        <button class="seat-button">C4</button>
+                        <button class="seat-button">D3</button>
+                        <button class="seat-button">D4</button>
+                        <button class="seat-button">E3</button>
+                        <button class="seat-button">E4</button>
+                        <button class="seat-button">F3</button>
+                        <button class="seat-button">F4</button>
+                        <button class="seat-button">G3</button>
+                        <button class="seat-button">G4</button>
+                        <button class="seat-button">H3</button>
+                        <button class="seat-button">H4</button>
+                        <button class="seat-button">I3</button>
+                        <button class="seat-button">I4</button>
+                        <button class="seat-button">J3</button>
+                        <button class="seat-button">J4</button>
                     </div>
                 </div>
             </div>
@@ -184,28 +187,40 @@
                 <div class="mt-6 font-inter">
                     <div class="bg-[#F7F8F8] rounded-xl p-8">
                         <div class="flex justify-between pb-4 border-b-2 border-dashed text-lg text-black font-medium">
-                            <p>Seat</p>
+                            <div class="flex items-center gap-1">
+                                <p>Seat</p>
+                                <p class="text-xs bg-[#1DD100] text-white w-2.5 rounded" id="number-of-seat-selected">0
+                                </p>
+                            </div>
                             <p>Class</p>
                             <P>Price</P>
                         </div>
-                        <div class="grid grid-cols-3 justify-between my-4">
-                            <p>C2</p>
-                            <p>Economy</p>
-                            <p>500</p>
+                        <div id="seat-number-list">
+                            <!-- <div class="flex justify-between my-4">
+                                <p>C2</p>
+                                <p>Economy</p>
+                                <p>500</p>
+                            </div> -->
                         </div>
                         <div class="border-b-2"></div>
-                        <div class="flex justify-between my-4">
+                        <div class="flex justify-between my-4 text-black font-medium text-base">
                             <p>Total Price</p>
-                            <p>BDT 1100</p>
+                            <div class="flex gap-1">
+                                <p>BDT</p>
+                                <p id="total-price">0</p>
+                            </div>
                         </div>
                         <div class="flex">
                             <input type="text" class="bg-white py-5 pl-5 rounded-xl flex-1"
                                 placeholder="Have any copupon?">
-                            <button class="btn">Apply</button>
+                            <button class="btn" disabled>Apply</button>
                         </div>
-                        <div class="flex mt-6 justify-between text-black font-medium">
+                        <div class="flex mt-6 justify-between text-black font-medium text-base">
                             <p>Grand Total</p>
-                            <p>BDT 1100</p>
+                            <div class="flex gap-1 text-black">
+                                <p>BDT</p>
+                                <p id="grand-price">0</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -219,8 +234,7 @@
                     <p class="text-black font-semibold mt-6 mb-4">Email ID</p>
                     <input type="email" placeholder="Enter Your Email ID" class="rounded-xl py-6 pl-6 border-2 w-full">
                     <div>
-                        <button
-                            class="primary-btn  w-full">Next</button>
+                        <button class="primary-btn  w-full" disabled>Next</button>
                         <div class="flex justify-around">
                             <p class="underline">Terms and Conditions</p>
                             <p class="underline">Cancellation Policy</p>
@@ -256,6 +270,28 @@
             </nav>
         </footer>
     </footer>
+    <script src="script/smartTicket.js"></script>
+
+    <div class="flex justify-between items-center relative  border-2 w-96 py-7 px-6 rounded-lg bg-[#FFBF0F]">
+
+        <div class="flex  ">
+            <div>
+                <h1 class="text-4xl font-bold">15% OFF</h1>
+                <p class="text-lg font-bold">on your next purchase</p>
+                <p class="text-lg font-semibold text-[#816310]">use by january 2024</p>
+            </div>
+            <div class="absolute left-52 -top-1   ">
+                <img class="h-40" src="./cupon-devider.png" alt="">
+            </div>
+
+        </div>
+        <div>
+            <h1 class="text-3xl font-semibold">NEW15</h1>
+            <p class="text-lg font-semibold text-[#816310]">Capone code</p>
+
+        </div>
+    </div>
+
 </body>
 
 </html>

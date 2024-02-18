@@ -5,3 +5,7 @@
 .primary-btn{
     @apply hover:bg-[#84cc16] my-6 rounded-2xl py-5 text-white font-extrabold text-xl bg-[#1DD100]
 }
+
+.seat-button{
+    @apply bg-[#F7F8F8] rounded-xl py-4 px-11 flex justify-center items-center text-lg
+}
