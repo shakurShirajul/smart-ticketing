@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .primary-btn{
-    @apply hover:bg-[#84cc16] my-6 rounded-2xl py-5 text-white font-extrabold text-xl bg-[#1DD100]
+    @apply hover:bg-[#84cc16] rounded-2xl text-white bg-[#1DD100]
 }
 
 .seat-button{
